@@ -1,0 +1,32 @@
+{
+  "name": "vite-react-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.92.1",
+    "@react-three/fiber": "^8.15.12",
+    "@react-spring/three": "^9.7.3",
+    "@types/three": "^0.159.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.159.0",
+    "zustand": "^4.4.1",
+    "leva": "^0.9.35",
+    "three-mesh-bvh": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.4"
+  },
+  "type": "module"
+}
